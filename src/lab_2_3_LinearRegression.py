@@ -184,7 +184,7 @@ def anscombe_quartet():
     # Construct an array that contains, for each entry, the identifier of each dataset
     datasets = anscombe["dataset"].unique()
 
-    models = {}
+    models = {}    #.
     results = {"R2": [], "RMSE": [], "MAE": []}
     for dataset in datasets:
 
